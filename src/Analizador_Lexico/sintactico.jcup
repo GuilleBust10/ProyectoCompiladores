@@ -1,0 +1,75 @@
+package Analizador_Lexico;
+
+import java_cup.runtime.Symbol;
+import java.util.ArrayList;
+
+action code {:
+// se utiliza un arraylist para crear la tabla
+public ArrayList<String> tabla = new ArrayList();
+:}
+
+parser code {:
+    
+public Arbol arbolSintactico;
+
+    @Override
+    public void syntax_error(Symbol sy) {
+        Token t=(Token)sy.value;
+        done_parsing();
+        report_error("Error sintáctico cerca de \""+ t.getCadena()+"\" ["+t.getRow()+" : "+t.getCol()+"]",null);
+        
+    }
+:}
+
+init with {: 
+    arbolSintactico = new Arbol();
+:};
+
+terminal DEVOLVER, NUMERO, TAB, CLASE, FUNCION, SI, SINO, ENTONCES, ESCRIBIR, LEER, DESDE, MIENTRAS, HACER, INCREMENTAR;
+terminal ITERAR, PRINCIPAL, CADENA, BOOLEANO, NULO, VERDADERO, FALSO, ELIMINAR, EXTIENDE, ESTATICO, DISY;
+terminal CONJ, ID, SUMA, RESTA, MULT, DIV, POTENCIA, MENOR, MAYOR, MODULO, IGUAL, CORCHETEINI, CORCHETEFIN;
+terminal DOSP, PCOMA, COMA, PUNTO, PARINI, PARFIN, COMENT, PROPIED, METD, CHAR, ENT, CONST;
+non terminal inicio, Devolucion, linea_codigo, Comentarios, Clase, Propiedad, Constructor, MPropied, Metodo;
+non terminal Funcion, Condicion, MMetodo, Opcion, MClase, Operaciones, CondicionB;
+
+start with inicio;
+
+inicio ::= linea_codigo:l inicio{:
+            parser.arbolSintactico.agregarHijo((Nodo) l);
+            :}
+            | linea_codigo:l {:
+                parser.arbolSintactico.agregarHijo((Nodo) l);
+            :};
+
+linea_codigo ::= Devolucion | Comentarios | MClase;
+
+//--------Secciones Simples-----------------------
+
+Devolucion ::= DEVOLVER NUMERO;
+
+Comentarios ::= COMENT;
+
+Clase ::= CLASE ID;
+
+Propiedad ::= PROPIED ID DOSP;
+
+Constructor ::= ENT ID Constructor| CADENA ID Constructor| ESCRIBIR TAB Constructor | CADENA ID| ID ID |ESCRIBIR TAB;
+
+//--------Seccion Metodos, Funcion y Clase--------
+
+Metodo ::= METD ID DOSP;
+
+Funcion ::= ENT ID PARINI ENT ID PARFIN |ENT ID PARINI PARFIN | CONST PARINI PARFIN | ID PARINI PARFIN;
+
+Condicion ::= SI ID CHAR NUMERO ENTONCES Devolucion CondicionB;
+CondicionB ::= SINO Devolucion;
+
+Operaciones ::= ID IGUAL TAB Funcion Constructor |
+                ID IGUAL ID Funcion Operaciones| ID IGUAL NUMERO Operaciones| ID IGUAL ID Funcion| ID IGUAL NUMERO;
+
+//---------Secciones Mayores---------------------
+MPropied ::= Propiedad Constructor;
+
+MMetodo ::= Metodo Funcion Condicion | Metodo Funcion Operaciones;
+
+MClase ::= Clase MPropied MMetodo | Clase MPropied;
