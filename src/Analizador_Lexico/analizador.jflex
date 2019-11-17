@@ -2,7 +2,10 @@ package Analizador_Lexico;
 
 import java_cup.runtime.Symbol;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Beta0.1
 import java.util.ArrayList;
 import java.io.File;
 import java.io.FileReader;
@@ -13,6 +16,7 @@ import java.io.FileNotFoundException;
 
 %%
 
+<<<<<<< HEAD
 %class Analizador_Lexico1
 /*%unicode*/
 %line
@@ -20,6 +24,15 @@ import java.io.FileNotFoundException;
 %public
 %cup
 /*%standalone*/
+=======
+%class Analizador_Lex
+
+%line
+%char
+%column
+%public
+%cup
+>>>>>>> Beta0.1
  
 /*-------------------------------NUMEROS----------------------------------*/
 Numero1 = 0 | [1-9][0-9]*
@@ -49,7 +62,11 @@ HACER    = "hacer"
 INCREMENTAR = "incrementar"
 ITERAR   = "iterar"
 PRINCIPAL = "principal"
+<<<<<<< HEAD
 NUMERO   = "numero"
+=======
+NUMER   = "numero"
+>>>>>>> Beta0.1
 CADENA   = "cadena"
 BOOLEANO = "booleano"
 NULO     = "nulo"
@@ -58,14 +75,27 @@ FALSO     = "falso"
 ELIMINAR  = "eliminar"
 EXTIENDE  = "extiende"
 ESTATICO  = "estatico"
+<<<<<<< HEAD
+=======
+FUNCION   = "funcion"
+PROPIEDADES = "propiedades"
+METODOS = "metodos"
+ENTERO = "entero"
+CONSTRUCTOR = "constructor"
+>>>>>>> Beta0.1
 
 /*-------------------------------------------------------------------------*/
 
 /*---------------------------------- Operadores----------------------------*/
 Suma = \+
 Resta = \-
+<<<<<<< HEAD
 Mult = \*
 Div = \/
+=======
+Mult = "*"
+Div = "/"
+>>>>>>> Beta0.1
 Potencia = \^
 Menor = \<
 Mayor = \>
@@ -77,6 +107,16 @@ Conjuncion = AND
 Modulo     = \%
 /*------------------------------------------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
+=======
+/*-------------------------------Comentarios-------------------------------*/
+Comentario1 = {Div}{2}([a-zA-Z0-9]*{Caracteres}*(\s)*[a-zA-Z0-9]*{Caracteres}*)
+Comentario2 = {Div}{Mult}([a-zA-Z0-9]*{Caracteres}*(\s)*[a-zA-Z0-9]*{Caracteres}*){Div}{Mult}
+
+Comentarios = {Comentario2}|{Comentario1}
+/*---------------------------------------------------------------------------*/
+
+>>>>>>> Beta0.1
 /*-------------------------------SIGNOS----------------------------------*/
 CorcheteIni = \[
 CorcheteFin = \]
@@ -101,6 +141,7 @@ LineTerminator = \r|\n|\r\n
 WhiteSpace = {LineTerminator} | [ \t\f] | [ ]
 /*---------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
 /*-------------------------------Comentarios-------------------------------*/
 Comentario1 = {Div}{2}([a-zA-Z0-9]*{Caracteres}*(\s)*[a-zA-Z0-9]*{Caracteres}*)
 Comentario2 = {Div}{Mult}([a-zA-Z0-9]*{Caracteres}*(\s)*[a-zA-Z0-9]*{Caracteres}*){Div}{Mult}
@@ -112,6 +153,12 @@ Comentarios = {Comentario1}|{Comentario2}
 Texto1 = [a-zA-Z0-9][a-zA-Z0-9]*
 
 Texto = {Comillas}{Texto1}(\s)*{Texto1}{Comillas}  
+=======
+/*-------------------------------TEXTO---------------------------------------*/
+Texto1 = {[a-zA-Z0-9][a-zA-Z0-9]*[WhiteSpace]}*
+
+Texto = {Comillas}{Texto1}{Comillas} | {Comillas}{Comillas}
+>>>>>>> Beta0.1
 /*---------------------------------------------------------------------------*/
 
 /*-------------------------------Caracteres----------------------------------*/
@@ -129,6 +176,21 @@ Caracteres = {C1}|{C2}|{C3}|{C4}|{C5}|{C6}|{C7}
 
 
 %%
+<<<<<<< HEAD
+=======
+{Comentarios}          {System.out.println("Comentario: "+yytext());
+                        return new Symbol(sym.COMENT,new Token(yycolumn,yyline,yytext()));
+                        } 
+{Caracteres}          {System.out.println("Caracter: "+yytext());
+                        return new Symbol(sym.CHAR,new Token(yycolumn,yyline,yytext()));
+                        } 
+{ENTERO}          {System.out.println("RESERVADA: "+yytext());
+                        return new Symbol(sym.ENT,new Token(yycolumn,yyline,yytext()));
+                        } 
+{CONSTRUCTOR}          {System.out.println("RESERVADA: "+yytext());
+                        return new Symbol(sym.CONST,new Token(yycolumn,yyline,yytext()));
+                        } 
+>>>>>>> Beta0.1
 
 {Texto}                 {
                           System.out.println("TABULADOR: ");
@@ -141,8 +203,11 @@ Caracteres = {C1}|{C2}|{C3}|{C4}|{C5}|{C6}|{C7}
                             return new Symbol(sym.TAB,new Token(yycolumn,yyline,yytext()));
                         }
 
+<<<<<<< HEAD
 {Comentarios}          {System.out.println("Comentario: "+yytext());} 
 
+=======
+>>>>>>> Beta0.1
 /*--------------------------------------- PALABRAS RESERVADAS -------------------------------------------------*/
 
 {Numero1}                {
@@ -154,6 +219,17 @@ Caracteres = {C1}|{C2}|{C3}|{C4}|{C5}|{C6}|{C7}
                             System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.CLASE,new Token(yycolumn,yyline,yytext()));
                         }
+<<<<<<< HEAD
+=======
+{PROPIEDADES}                 {
+                            System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.PROPIED,new Token(yycolumn,yyline,yytext()));
+                        }
+{METODOS}                 {
+                            System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.METD,new Token(yycolumn,yyline,yytext()));
+                        }
+>>>>>>> Beta0.1
 {FUNCION}               {
                             System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.FUNCION,new Token(yycolumn,yyline,yytext()));
@@ -206,10 +282,13 @@ Caracteres = {C1}|{C2}|{C3}|{C4}|{C5}|{C6}|{C7}
                             System.out.println("RESERVADA: "+yytext()); 
                             return new Symbol(sym.PRINCIPAL,new Token(yycolumn,yyline,yytext()));
                         }
+<<<<<<< HEAD
 {NUMERO}                {
                             System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.TNUMERO,new Token(yycolumn,yyline,yytext()));
                         }
+=======
+>>>>>>> Beta0.1
 {CADENA}                {
                             System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.CADENA,new Token(yycolumn,yyline,yytext()));
@@ -252,7 +331,11 @@ Caracteres = {C1}|{C2}|{C3}|{C4}|{C5}|{C6}|{C7}
                       }
 /*------------------------------------------------------------------------------------------------------------*/
 {Identificador}        {
+<<<<<<< HEAD
                            System.out.println("Identificador: "+yytext()); identL.add(yytext());
+=======
+                           System.out.println("Identificador: "+yytext());
+>>>>>>> Beta0.1
                            return new Symbol(sym.ID,new Token(yycolumn,yyline,yytext()));
                        }
 
