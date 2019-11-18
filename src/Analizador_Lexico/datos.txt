@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ´area de inclusi´on de bibliotecas externas */
 // ninguna librer´ıa que cargar
 /* ´area de declaraci´on de clases */
@@ -16,3 +17,47 @@ funcion numero sumadenumeros(numero n1,numero n2):
 	n3 = n1 + n2;
 
 escribir "numeros";
+=======
+clase Impar
+ propiedades publicas:
+  cadena hola
+ metodos publicos:
+   entero esImpar(entero numero)
+    si numero % 2 entonces
+     devolver 1
+    sino
+     devolver 0
+clase HolaMundo
+ propiedades privadas:
+  entero a
+  cadena nombre
+  Impar i
+ metodos publicos :
+  constructor ()
+   i = nuevo Impar ()
+   a = 0
+   nombre = ""
+
+ entero inicio ()
+  escribir "escriba su nombre"
+  // se guarda una cadena de texto en la variable nombre
+  leer nombre ;
+  escribir " escriba un valor entre 1 y 30"
+  // se guarda un numero en la variable a
+  leer a
+  /* escribe en pantalla la constante junto
+  * al valor de la variable nombre
+  */
+  escribir " Hola ", nombre
+  si i . esImpar ( a ) entonces
+   escribir "El numero que eligio es impar "
+  sino
+   escribir "El numero que eligio es par"
+  devolver 0
+
+/* ´area de declaraci´on de funci´on de carga inicial */
+entero Principal ()
+ HolaMundo hola = instanciar HolaMundo ()
+ hola . inicio ()
+ devolver 0
+>>>>>>> Beta0.1

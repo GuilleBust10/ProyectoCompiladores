@@ -43,6 +43,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
    * Translates characters to character classes
    */
   private static final String ZZ_CMAP_PACKED = 
+<<<<<<< HEAD
     "\11\0\1\10\1\4\1\64\1\5\1\3\22\0\1\63\1\0\1\62"+
     "\1\0\1\0\1\50\1\0\1\0\1\57\1\60\1\35\1\33\1\55"+
     "\1\34\1\56\1\36\1\1\11\2\1\53\1\54\1\40\1\42\1\41"+
@@ -53,6 +54,18 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
     "\1\61\7\0\1\64\32\0\1\0\1\0\35\0\1\0\u15c0\0\1\0"+
     "\u097f\0\13\0\35\0\1\64\1\64\5\0\1\0\57\0\1\0\u0fa0\0"+
     "\1\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\ud00f\0";
+=======
+    "\11\0\1\10\1\4\1\65\1\5\1\3\22\0\1\5\1\0\1\64"+
+    "\1\51\1\51\1\51\1\51\1\51\1\61\1\62\1\36\1\34\1\57"+
+    "\1\35\1\60\1\37\1\1\11\2\1\55\1\56\1\41\1\43\1\42"+
+    "\2\0\1\46\2\6\1\50\11\6\1\47\1\44\2\6\1\45\10\6"+
+    "\1\53\1\0\1\54\1\40\1\7\1\0\1\13\1\25\1\11\1\22"+
+    "\1\15\1\32\1\6\1\27\1\16\2\6\1\12\1\26\1\17\1\20"+
+    "\1\30\1\6\1\24\1\14\1\21\1\31\1\23\1\6\1\33\2\6"+
+    "\1\63\1\0\1\63\7\0\1\65\32\0\1\52\1\51\35\0\1\51"+
+    "\u15c0\0\1\52\u097f\0\13\52\35\0\1\65\1\65\5\0\1\52\57\0"+
+    "\1\52\u0fa0\0\1\52\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\ud00f\0";
+>>>>>>> Beta0.1
 
   /** 
    * Translates characters to character classes
@@ -65,6 +78,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
   private static final int [] ZZ_ACTION = zzUnpackAction();
 
   private static final String ZZ_ACTION_PACKED_0 =
+<<<<<<< HEAD
     "\1\0\1\1\2\2\2\3\1\4\1\5\16\4\1\6"+
     "\1\7\1\10\1\11\1\12\1\13\1\14\1\15\2\4"+
     "\1\16\1\17\1\20\1\21\1\22\1\23\1\24\1\25"+
@@ -79,6 +93,22 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
 
   private static int [] zzUnpackAction() {
     int [] result = new int[174];
+=======
+    "\1\0\1\1\2\2\2\3\1\4\1\5\15\4\1\6"+
+    "\1\7\1\10\1\11\1\12\1\13\1\14\1\15\2\4"+
+    "\1\16\1\17\1\20\1\21\1\22\1\23\1\24\1\25"+
+    "\1\26\1\27\1\1\4\4\1\30\20\4\1\0\1\31"+
+    "\1\32\1\33\1\4\1\0\1\34\30\4\3\0\2\31"+
+    "\1\35\1\0\3\4\1\36\1\37\10\4\1\40\13\4"+
+    "\2\0\3\31\1\41\12\4\1\42\5\4\1\43\2\4"+
+    "\1\44\1\4\1\45\4\4\1\46\3\4\1\47\22\4"+
+    "\1\50\3\4\1\51\1\4\1\52\1\53\1\54\1\55"+
+    "\1\56\1\4\1\57\1\4\1\60\1\61\4\4\1\62"+
+    "\1\63\4\4\1\64\1\65\1\66";
+
+  private static int [] zzUnpackAction() {
+    int [] result = new int[210];
+>>>>>>> Beta0.1
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -103,6 +133,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
+<<<<<<< HEAD
     "\0\0\0\65\0\65\0\152\0\237\0\65\0\324\0\65"+
     "\0\u0109\0\u013e\0\u0173\0\u01a8\0\u01dd\0\u0212\0\u0247\0\u027c"+
     "\0\u02b1\0\u02e6\0\u031b\0\u0350\0\u0385\0\u03ba\0\65\0\65"+
@@ -128,6 +159,38 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
 
   private static int [] zzUnpackRowMap() {
     int [] result = new int[174];
+=======
+    "\0\0\0\66\0\66\0\154\0\242\0\66\0\330\0\66"+
+    "\0\u010e\0\u0144\0\u017a\0\u01b0\0\u01e6\0\u021c\0\u0252\0\u0288"+
+    "\0\u02be\0\u02f4\0\u032a\0\u0360\0\u0396\0\66\0\66\0\66"+
+    "\0\u03cc\0\66\0\u0402\0\u0402\0\66\0\u0438\0\u046e\0\66"+
+    "\0\66\0\66\0\66\0\66\0\66\0\66\0\66\0\66"+
+    "\0\66\0\u04a4\0\u04da\0\u0510\0\u0546\0\u057c\0\u05b2\0\u05e8"+
+    "\0\u061e\0\u0654\0\u068a\0\u06c0\0\u06f6\0\u072c\0\u0762\0\u0798"+
+    "\0\u07ce\0\u0804\0\u083a\0\u0870\0\u08a6\0\u08dc\0\u0912\0\u0948"+
+    "\0\u097e\0\66\0\330\0\u09b4\0\u09ea\0\66\0\u0a20\0\u0a56"+
+    "\0\u0a8c\0\u0ac2\0\u0af8\0\u0b2e\0\u0b64\0\u0b9a\0\u0bd0\0\u0c06"+
+    "\0\u0c3c\0\u0c72\0\u0ca8\0\u0cde\0\u0d14\0\u0d4a\0\u0d80\0\u0db6"+
+    "\0\u0dec\0\u0e22\0\u0e58\0\u0e8e\0\u0ec4\0\u0efa\0\u0f30\0\u0f66"+
+    "\0\u0f9c\0\u0fd2\0\u1008\0\330\0\u04a4\0\u103e\0\u1074\0\u10aa"+
+    "\0\330\0\330\0\u10e0\0\u1116\0\u114c\0\u1182\0\u11b8\0\u11ee"+
+    "\0\u1224\0\u125a\0\330\0\u1290\0\u12c6\0\u12fc\0\u1332\0\u1368"+
+    "\0\u139e\0\u13d4\0\u140a\0\u1440\0\u1476\0\u14ac\0\u14e2\0\u1518"+
+    "\0\66\0\u154e\0\u1584\0\330\0\u15ba\0\u15f0\0\u1626\0\u165c"+
+    "\0\u1692\0\u16c8\0\u16fe\0\u1734\0\u176a\0\u17a0\0\330\0\u17d6"+
+    "\0\u180c\0\u1842\0\u1878\0\u18ae\0\330\0\u18e4\0\u191a\0\330"+
+    "\0\u1950\0\330\0\u1986\0\u19bc\0\u19f2\0\u1a28\0\330\0\u1a5e"+
+    "\0\u1a94\0\u1aca\0\330\0\u1b00\0\u1b36\0\u1b6c\0\u1ba2\0\u1bd8"+
+    "\0\u1c0e\0\u1c44\0\u1c7a\0\u1cb0\0\u1ce6\0\u1d1c\0\u1d52\0\u1d88"+
+    "\0\u1dbe\0\u1df4\0\u1e2a\0\u1e60\0\u1e96\0\330\0\u1ecc\0\u1f02"+
+    "\0\u1f38\0\330\0\u1f6e\0\330\0\330\0\330\0\330\0\330"+
+    "\0\u1fa4\0\330\0\u1fda\0\330\0\330\0\u2010\0\u2046\0\u207c"+
+    "\0\u20b2\0\330\0\330\0\u20e8\0\u211e\0\u2154\0\u218a\0\330"+
+    "\0\330\0\330";
+
+  private static int [] zzUnpackRowMap() {
+    int [] result = new int[210];
+>>>>>>> Beta0.1
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -151,6 +214,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
 
   private static final String ZZ_TRANS_PACKED_0 =
     "\1\2\1\3\1\4\1\5\2\6\1\7\1\2\1\10"+
+<<<<<<< HEAD
     "\1\11\1\12\1\13\2\7\1\14\1\15\1\16\1\17"+
     "\1\20\2\7\1\21\1\22\1\23\1\24\1\25\1\26"+
     "\1\27\1\30\1\31\1\32\1\33\1\34\1\35\1\36"+
@@ -308,6 +372,212 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
 
   private static int [] zzUnpackTrans() {
     int [] result = new int[6784];
+=======
+    "\1\11\1\12\1\7\1\13\1\14\1\15\1\16\2\7"+
+    "\1\17\1\20\1\7\1\21\1\22\1\23\1\24\1\7"+
+    "\1\25\1\7\1\26\1\27\1\30\1\31\1\32\1\33"+
+    "\1\34\1\35\1\36\1\7\1\37\2\7\1\40\1\2"+
+    "\1\41\1\42\1\43\1\44\1\45\1\46\1\47\1\50"+
+    "\1\51\1\52\70\0\2\4\67\0\1\6\62\0\2\7"+
+    "\3\0\2\7\1\0\23\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\1\7\1\53\1\54\4\7\1\55"+
+    "\13\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\4\7\1\56\16\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\5\7\1\57\15\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\1\7\1\60\1\7\1\61"+
+    "\2\7\1\62\13\7\1\63\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\6\7\1\64\1\7\1\65\12\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\20\7"+
+    "\1\66\2\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\4\7\1\67\16\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\4\7\1\70\16\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\7\7\1\71\13\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\4\7"+
+    "\1\72\1\73\15\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\2\7\1\74\20\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\13\7\1\75\7\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\2\7\1\76"+
+    "\15\7\1\77\2\7\10\0\5\7\53\0\1\100\1\101"+
+    "\71\0\1\102\23\0\2\7\3\0\2\7\1\0\23\7"+
+    "\10\0\1\7\1\103\3\7\16\0\2\7\3\0\2\7"+
+    "\1\0\23\7\10\0\3\7\1\104\1\7\16\0\2\105"+
+    "\3\0\1\105\2\0\23\105\10\0\5\105\13\0\1\106"+
+    "\2\0\2\7\3\0\2\7\1\0\2\7\1\107\20\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\11\7"+
+    "\1\110\11\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\6\7\1\111\14\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\4\7\1\112\16\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\6\7\1\113\14\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\5\7"+
+    "\1\114\15\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\1\115\7\7\1\116\12\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\10\7\1\117\12\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\10\7\1\120"+
+    "\12\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\1\121\22\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\4\7\1\122\16\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\1\7\1\123\21\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\3\7\1\124\6\7"+
+    "\1\125\10\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\13\7\1\126\7\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\7\7\1\127\13\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\10\7\1\130\12\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\4\7"+
+    "\1\131\16\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\1\132\22\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\5\7\1\133\1\7\1\134\13\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\1\7\1\135"+
+    "\21\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\6\7\1\136\14\7\10\0\5\7\16\0\2\100\3\137"+
+    "\1\100\1\0\1\137\23\100\3\0\1\140\4\0\5\100"+
+    "\1\141\1\137\12\0\1\137\1\0\2\101\3\142\1\101"+
+    "\1\0\1\142\23\101\10\0\5\101\1\143\1\142\12\0"+
+    "\1\142\1\0\2\7\3\0\2\7\1\0\23\7\10\0"+
+    "\4\7\1\144\16\0\2\105\3\145\1\105\1\0\1\145"+
+    "\23\105\10\0\5\105\1\0\1\145\12\0\1\145\1\0"+
+    "\2\7\3\0\2\7\1\0\3\7\1\146\17\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\4\7\1\147"+
+    "\16\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\3\7\1\150\17\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\13\7\1\151\7\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\7\7\1\152\13\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\15\7\1\153"+
+    "\5\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\13\7\1\154\7\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\2\7\1\155\20\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\4\7\1\156\2\7\1\157"+
+    "\13\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\5\7\1\160\15\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\13\7\1\161\7\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\13\7\1\162\7\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\7\7\1\163"+
+    "\13\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\11\7\1\164\11\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\7\7\1\165\13\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\11\7\1\166\11\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\1\7\1\167"+
+    "\21\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\7\7\1\170\13\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\6\7\1\171\14\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\4\7\1\172\16\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\6\7\1\173"+
+    "\14\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\17\7\1\174\3\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\3\7\1\175\17\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\1\176\22\7\10\0\5\7"+
+    "\16\0\2\177\3\137\1\177\1\0\1\137\23\177\3\0"+
+    "\1\140\4\0\5\177\1\200\1\137\12\0\1\137\36\0"+
+    "\1\201\30\0\2\177\3\137\1\177\1\0\1\137\23\177"+
+    "\3\0\1\140\4\0\5\177\1\141\1\137\12\0\1\137"+
+    "\1\0\2\202\3\142\1\202\1\0\1\142\23\202\10\0"+
+    "\5\202\1\203\1\142\12\0\1\142\1\0\2\202\3\142"+
+    "\1\202\1\0\1\142\23\202\10\0\5\202\1\143\1\142"+
+    "\12\0\1\142\1\0\2\7\3\0\2\7\1\0\4\7"+
+    "\1\204\16\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\6\7\1\205\14\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\10\7\1\206\12\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\5\7\1\207\15\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\5\7"+
+    "\1\210\15\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\10\7\1\211\12\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\13\7\1\212\7\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\6\7\1\213\14\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\4\7"+
+    "\1\214\16\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\4\7\1\215\16\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\2\7\1\216\20\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\4\7\1\217\16\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\1\7"+
+    "\1\220\21\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\2\7\1\221\20\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\4\7\1\222\16\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\11\7\1\223\11\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\10\7"+
+    "\1\224\12\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\13\7\1\225\7\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\1\226\22\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\5\7\1\227\15\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\7\7\1\230"+
+    "\13\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\5\7\1\231\15\7\10\0\5\7\16\0\2\177\3\0"+
+    "\1\177\2\0\23\177\3\0\1\140\4\0\5\177\1\200"+
+    "\53\0\1\140\11\0\1\200\15\0\2\202\3\0\1\202"+
+    "\2\0\23\202\10\0\5\202\1\203\65\0\1\203\15\0"+
+    "\2\7\3\0\2\7\1\0\2\7\1\232\20\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\13\7\1\233"+
+    "\7\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\6\7\1\234\14\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\14\7\1\235\6\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\5\7\1\236\15\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\7\7\1\237"+
+    "\13\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\1\240\22\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\6\7\1\241\14\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\15\7\1\242\5\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\13\7\1\243\7\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\12\7"+
+    "\1\244\10\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\11\7\1\245\11\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\2\7\1\246\20\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\7\7\1\247\13\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\13\7"+
+    "\1\250\7\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\5\7\1\251\15\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\4\7\1\252\16\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\7\7\1\253\13\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\20\7"+
+    "\1\254\2\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\2\7\1\255\20\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\5\7\1\256\15\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\1\257\22\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\4\7\1\260"+
+    "\16\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\11\7\1\261\11\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\4\7\1\262\16\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\4\7\1\263\16\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\4\7\1\264"+
+    "\16\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\6\7\1\265\14\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\3\7\1\266\17\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\2\7\1\267\20\7\10\0"+
+    "\5\7\16\0\2\7\3\0\2\7\1\0\17\7\1\270"+
+    "\3\7\10\0\5\7\16\0\2\7\3\0\2\7\1\0"+
+    "\11\7\1\271\11\7\10\0\5\7\16\0\2\7\3\0"+
+    "\2\7\1\0\6\7\1\272\14\7\10\0\5\7\16\0"+
+    "\2\7\3\0\2\7\1\0\1\273\22\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\13\7\1\274\7\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\13\7"+
+    "\1\275\7\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\7\7\1\276\13\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\3\7\1\277\17\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\4\7\1\300\16\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\6\7"+
+    "\1\301\14\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\13\7\1\302\7\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\13\7\1\303\7\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\7\7\1\304\13\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\3\7"+
+    "\1\305\17\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\2\7\1\306\20\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\2\7\1\307\20\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\10\7\1\310\12\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\10\7"+
+    "\1\311\12\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\7\7\1\312\13\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\1\7\1\313\21\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\11\7\1\314\11\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\7\7"+
+    "\1\315\13\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\2\7\1\316\20\7\10\0\5\7\16\0\2\7"+
+    "\3\0\2\7\1\0\4\7\1\317\16\7\10\0\5\7"+
+    "\16\0\2\7\3\0\2\7\1\0\13\7\1\320\7\7"+
+    "\10\0\5\7\16\0\2\7\3\0\2\7\1\0\13\7"+
+    "\1\321\7\7\10\0\5\7\16\0\2\7\3\0\2\7"+
+    "\1\0\3\7\1\322\17\7\10\0\5\7\15\0";
+
+  private static int [] zzUnpackTrans() {
+    int [] result = new int[8640];
+>>>>>>> Beta0.1
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -345,6 +615,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
+<<<<<<< HEAD
     "\1\0\2\11\2\1\1\11\1\1\1\11\16\1\3\11"+
     "\1\1\1\11\2\1\1\11\2\1\12\11\24\1\1\0"+
     "\1\1\1\11\2\1\1\0\24\1\1\0\2\1\1\0"+
@@ -352,6 +623,15 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
 
   private static int [] zzUnpackAttribute() {
     int [] result = new int[174];
+=======
+    "\1\0\2\11\2\1\1\11\1\1\1\11\15\1\3\11"+
+    "\1\1\1\11\2\1\1\11\2\1\12\11\26\1\1\0"+
+    "\1\1\1\11\2\1\1\0\1\11\30\1\3\0\3\1"+
+    "\1\0\31\1\2\0\1\11\121\1";
+
+  private static int [] zzUnpackAttribute() {
+    int [] result = new int[210];
+>>>>>>> Beta0.1
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -426,6 +706,7 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
    */
   private int zzFinalHighSurrogate = 0;
 
+<<<<<<< HEAD
   /* user code: */
 /*-----------------------------LISTAS PARA LOS TOKENS----------------------*/
       ArrayList<String> numL = new ArrayList<>();
@@ -435,6 +716,8 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
       ArrayList<String> signL = new ArrayList<>();
 /*-------------------------------------------------------------------------*/
 
+=======
+>>>>>>> Beta0.1
 
   /**
    * Creates a new scanner
@@ -456,7 +739,11 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
     char [] map = new char[0x110000];
     int i = 0;  /* index in packed string  */
     int j = 0;  /* index in unpacked array */
+<<<<<<< HEAD
     while (i < 216) {
+=======
+    while (i < 220) {
+>>>>>>> Beta0.1
       int  count = packed.charAt(i++);
       char value = packed.charAt(i++);
       do map[j++] = value; while (--count > 0);
@@ -825,17 +1112,26 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             { System.out.println("Error lexico:" +yytext());
             } 
             // fall through
+<<<<<<< HEAD
           case 51: break;
+=======
+          case 55: break;
+>>>>>>> Beta0.1
           case 2: 
             { System.out.println("NUMERO: "+yytext());
                             return new Symbol(sym.NUMERO,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 52: break;
+=======
+          case 56: break;
+>>>>>>> Beta0.1
           case 3: 
             { 
             } 
             // fall through
+<<<<<<< HEAD
           case 53: break;
           case 4: 
             { System.out.println("Identificador: "+identL.add(yytext()));
@@ -843,59 +1139,101 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 54: break;
+=======
+          case 57: break;
+          case 4: 
+            { System.out.println("Identificador: "+yytext());
+                           return new Symbol(sym.ID,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 58: break;
+>>>>>>> Beta0.1
           case 5: 
             { System.out.println("TABULADOR: ");
                             return new Symbol(sym.TAB,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 55: break;
+=======
+          case 59: break;
+>>>>>>> Beta0.1
           case 6: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.SUMA,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 56: break;
+=======
+          case 60: break;
+>>>>>>> Beta0.1
           case 7: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.RESTA,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 57: break;
+=======
+          case 61: break;
+>>>>>>> Beta0.1
           case 8: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.MULT,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 58: break;
+=======
+          case 62: break;
+>>>>>>> Beta0.1
           case 9: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.DIV,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 59: break;
+=======
+          case 63: break;
+>>>>>>> Beta0.1
           case 10: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.POTENCIA,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 60: break;
+=======
+          case 64: break;
+>>>>>>> Beta0.1
           case 11: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.MENOR,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 61: break;
+=======
+          case 65: break;
+>>>>>>> Beta0.1
           case 12: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.MAYOR,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 62: break;
+=======
+          case 66: break;
+>>>>>>> Beta0.1
           case 13: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.IGUAL,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 63: break;
           case 14: 
             { System.out.println("Operador: "+yytext());
@@ -903,80 +1241,140 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 64: break;
+=======
+          case 67: break;
+          case 14: 
+            { System.out.println("Caracter: "+yytext());
+                        return new Symbol(sym.CHAR,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 68: break;
+>>>>>>> Beta0.1
           case 15: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.CORCHETEINI,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 65: break;
+=======
+          case 69: break;
+>>>>>>> Beta0.1
           case 16: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.CORCHETEFIN,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 66: break;
+=======
+          case 70: break;
+>>>>>>> Beta0.1
           case 17: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.DOSP,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 67: break;
+=======
+          case 71: break;
+>>>>>>> Beta0.1
           case 18: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.PCOMA,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 68: break;
+=======
+          case 72: break;
+>>>>>>> Beta0.1
           case 19: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.COMA,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 69: break;
+=======
+          case 73: break;
+>>>>>>> Beta0.1
           case 20: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.PUNTO,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 70: break;
+=======
+          case 74: break;
+>>>>>>> Beta0.1
           case 21: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.PARINI,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 71: break;
+=======
+          case 75: break;
+>>>>>>> Beta0.1
           case 22: 
             { System.out.println("SIGNO: "+yytext());
                             return new Symbol(sym.PARFIN,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 72: break;
+=======
+          case 76: break;
+>>>>>>> Beta0.1
           case 23: 
             { System.out.println("SIGNO: "+yytext());
             } 
             // fall through
+<<<<<<< HEAD
           case 73: break;
+=======
+          case 77: break;
+>>>>>>> Beta0.1
           case 24: 
             { System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.SI,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 74: break;
           case 25: 
             { System.out.println("Comentario: "+yytext());
             } 
             // fall through
           case 75: break;
+=======
+          case 78: break;
+          case 25: 
+            { System.out.println("Comentario: "+yytext());
+                        return new Symbol(sym.COMENT,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 79: break;
+>>>>>>> Beta0.1
           case 26: 
             { System.out.println("Operador: "+yytext());
             } 
             // fall through
+<<<<<<< HEAD
           case 76: break;
+=======
+          case 80: break;
+>>>>>>> Beta0.1
           case 27: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.DISY,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 77: break;
           case 28: 
             { System.out.println("texto: ");
@@ -984,11 +1382,21 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 78: break;
+=======
+          case 81: break;
+          case 28: 
+            { System.out.println("TABULADOR: ");
+                          return new Symbol(sym.TAB,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 82: break;
+>>>>>>> Beta0.1
           case 29: 
             { System.out.println("Operador: "+yytext());
                             return new Symbol(sym.CONJ,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 79: break;
           case 30: 
             { System.out.println("RESERVADA: "+yytext());
@@ -996,11 +1404,21 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 80: break;
+=======
+          case 83: break;
+          case 30: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.LEER,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 84: break;
+>>>>>>> Beta0.1
           case 31: 
             { System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.SINO,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 81: break;
           case 32: 
             { System.out.println("RESERVADA: "+yytext());
@@ -1056,11 +1474,69 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 90: break;
+=======
+          case 85: break;
+          case 32: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.NULO,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 86: break;
+          case 33: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.CLASE,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 87: break;
+          case 34: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.DESDE,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 88: break;
+          case 35: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.HACER,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 89: break;
+          case 36: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.FALSO,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 90: break;
+          case 37: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.CADENA,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 91: break;
+          case 38: 
+            { System.out.println("RESERVADA: "+yytext());
+                        return new Symbol(sym.ENT,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 92: break;
+          case 39: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.ITERAR,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 93: break;
+          case 40: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.METD,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 94: break;
+>>>>>>> Beta0.1
           case 41: 
             { System.out.println("RESERVADA: "+yytext());
                             return new Symbol(sym.FUNCION,new Token(yycolumn,yyline,yytext()));
             } 
             // fall through
+<<<<<<< HEAD
           case 91: break;
           case 42: 
             { System.out.println("RESERVADA: "+yytext());
@@ -1116,6 +1592,87 @@ public class Analizador_Lex implements java_cup.runtime.Scanner {
             } 
             // fall through
           case 100: break;
+=======
+          case 95: break;
+          case 42: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.ELIMINAR,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 96: break;
+          case 43: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.ESCRIBIR,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 97: break;
+          case 44: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.ESTATICO,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 98: break;
+          case 45: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.ENTONCES,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 99: break;
+          case 46: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.EXTIENDE,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 100: break;
+          case 47: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.DEVOLVER,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 101: break;
+          case 48: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.BOOLEANO,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 102: break;
+          case 49: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.MIENTRAS,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 103: break;
+          case 50: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.VERDADERO,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 104: break;
+          case 51: 
+            { System.out.println("RESERVADA: "+yytext()); 
+                            return new Symbol(sym.PRINCIPAL,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 105: break;
+          case 52: 
+            { System.out.println("RESERVADA: "+yytext());
+                        return new Symbol(sym.CONST,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 106: break;
+          case 53: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.INCREMENTAR,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 107: break;
+          case 54: 
+            { System.out.println("RESERVADA: "+yytext());
+                            return new Symbol(sym.PROPIED,new Token(yycolumn,yyline,yytext()));
+            } 
+            // fall through
+          case 108: break;
+>>>>>>> Beta0.1
           default:
             zzScanError(ZZ_NO_MATCH);
         }

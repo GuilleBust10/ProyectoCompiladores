@@ -6,6 +6,10 @@
 package Analizador_Lexico;
 
 import java_cup.runtime.Symbol;
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+>>>>>>> Beta0.1
 import java_cup.runtime.XMLElement;
 
 /** CUP v0.11b 20160615 (GIT 4ac7450) generated parser.
@@ -31,6 +35,7 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
   /** Production table. */
   protected static final short _production_table[][] = 
     unpackFromStrings(new String[] {
+<<<<<<< HEAD
     "\000\106\000\002\002\004\000\002\002\004\000\002\002" +
     "\003\000\002\003\003\000\002\003\003\000\002\003\003" +
     "\000\002\003\003\000\002\004\007\000\002\004\010\000" +
@@ -53,6 +58,19 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
     "\002\030\003\000\002\030\003\000\002\033\012\000\002" +
     "\034\004\000\002\016\004\000\002\035\005\000\002\035" +
     "\005\000\002\035\003\000\002\035\003" });
+=======
+    "\000\041\000\002\002\004\000\002\002\004\000\002\002" +
+    "\003\000\002\004\003\000\002\004\003\000\002\004\003" +
+    "\000\002\003\004\000\002\005\003\000\002\006\004\000" +
+    "\002\007\005\000\002\010\005\000\002\010\005\000\002" +
+    "\010\005\000\002\010\004\000\002\010\004\000\002\010" +
+    "\004\000\002\012\005\000\002\013\010\000\002\013\006" +
+    "\000\002\013\005\000\002\013\005\000\002\014\011\000" +
+    "\002\021\004\000\002\020\007\000\002\020\007\000\002" +
+    "\020\006\000\002\020\006\000\002\020\005\000\002\011" +
+    "\004\000\002\015\005\000\002\015\005\000\002\017\005" +
+    "\000\002\017\004" });
+>>>>>>> Beta0.1
 
   /** Access to production table. */
   public short[][] production_table() {return _production_table;}
@@ -60,6 +78,7 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
   /** Parse-action table. */
   protected static final short[][] _action_table = 
     unpackFromStrings(new String[] {
+<<<<<<< HEAD
     "\000\237\000\026\005\020\007\021\010\037\011\030\015" +
     "\031\017\034\027\015\030\007\031\022\066\011\001\002" +
     "\000\004\002\241\001\002\000\004\056\240\001\002\000" +
@@ -207,6 +226,64 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
     "\000\032\002\uffea\005\uffea\007\uffea\010\uffea\011\uffea\012" +
     "\uffea\015\uffea\017\uffea\027\uffea\030\uffea\031\uffea\066\uffea" +
     "\001\002\000\004\002\001\001\002" });
+=======
+    "\000\107\000\010\004\014\007\010\060\011\001\002\000" +
+    "\012\002\ufffe\004\ufffe\007\ufffe\060\ufffe\001\002\000\012" +
+    "\002\ufffc\004\ufffc\007\ufffc\060\ufffc\001\002\000\004\002" +
+    "\111\001\002\000\012\002\ufffd\004\ufffd\007\ufffd\060\ufffd" +
+    "\001\002\000\004\036\110\001\002\000\012\002\ufffa\004" +
+    "\ufffa\007\ufffa\060\ufffa\001\002\000\004\061\017\001\002" +
+    "\000\012\002\uffff\004\014\007\010\060\011\001\002\000" +
+    "\004\005\015\001\002\000\014\002\ufffb\004\ufffb\007\ufffb" +
+    "\012\ufffb\060\ufffb\001\002\000\004\002\000\001\002\000" +
+    "\004\036\106\001\002\000\012\014\056\024\060\036\054" +
+    "\064\055\001\002\000\014\002\uffe1\004\uffe1\007\uffe1\060" +
+    "\uffe1\062\024\001\002\000\010\036\027\064\031\065\030" +
+    "\001\002\000\012\002\uffe2\004\uffe2\007\uffe2\060\uffe2\001" +
+    "\002\000\004\036\025\001\002\000\004\052\026\001\002" +
+    "\000\010\036\ufff1\064\ufff1\065\ufff1\001\002\000\004\056" +
+    "\103\001\002\000\004\056\101\001\002\000\004\036\073" +
+    "\001\002\000\006\011\034\036\033\001\002\000\004\047" +
+    "\047\001\002\000\004\036\037\001\002\000\012\002\uffe4" +
+    "\004\uffe4\007\uffe4\060\uffe4\001\002\000\012\002\uffe3\004" +
+    "\uffe3\007\uffe3\060\uffe3\001\002\000\004\063\040\001\002" +
+    "\000\004\005\041\001\002\000\004\013\042\001\002\000" +
+    "\004\004\014\001\002\000\004\012\045\001\002\000\012" +
+    "\002\uffec\004\uffec\007\uffec\060\uffec\001\002\000\004\004" +
+    "\014\001\002\000\012\002\uffeb\004\uffeb\007\uffeb\060\uffeb" +
+    "\001\002\000\010\005\050\006\052\036\051\001\002\000" +
+    "\014\002\uffe6\004\uffe6\007\uffe6\036\033\060\uffe6\001\002" +
+    "\000\010\036\027\064\031\065\030\001\002\000\010\036" +
+    "\027\064\031\065\030\001\002\000\012\014\056\024\060" +
+    "\036\054\064\055\001\002\000\004\036\067\001\002\000" +
+    "\004\036\065\001\002\000\004\006\063\001\002\000\012" +
+    "\002\uffea\004\uffea\007\uffea\060\uffea\001\002\000\004\036" +
+    "\061\001\002\000\024\002\ufff4\004\ufff4\007\ufff4\014\056" +
+    "\024\060\036\054\060\ufff4\062\ufff4\064\055\001\002\000" +
+    "\014\002\ufff6\004\ufff6\007\ufff6\060\ufff6\062\ufff6\001\002" +
+    "\000\024\002\ufff2\004\ufff2\007\ufff2\014\056\024\060\036" +
+    "\054\060\ufff2\062\ufff2\064\055\001\002\000\014\002\ufff5" +
+    "\004\ufff5\007\ufff5\060\ufff5\062\ufff5\001\002\000\012\014" +
+    "\056\024\060\036\054\064\055\001\002\000\014\002\ufff7" +
+    "\004\ufff7\007\ufff7\060\ufff7\062\ufff7\001\002\000\014\002" +
+    "\ufff3\004\ufff3\007\ufff3\060\ufff3\062\ufff3\001\002\000\014" +
+    "\002\uffe7\004\uffe7\007\uffe7\036\033\060\uffe7\001\002\000" +
+    "\012\002\uffe9\004\uffe9\007\uffe9\060\uffe9\001\002\000\012" +
+    "\002\uffe8\004\uffe8\007\uffe8\060\uffe8\001\002\000\004\056" +
+    "\074\001\002\000\006\057\076\064\075\001\002\000\004" +
+    "\036\077\001\002\000\024\002\uffef\004\uffef\007\uffef\011" +
+    "\uffef\014\uffef\024\uffef\036\uffef\060\uffef\064\uffef\001\002" +
+    "\000\004\057\100\001\002\000\024\002\ufff0\004\ufff0\007" +
+    "\ufff0\011\ufff0\014\ufff0\024\ufff0\036\ufff0\060\ufff0\064\ufff0" +
+    "\001\002\000\004\057\102\001\002\000\024\002\uffee\004" +
+    "\uffee\007\uffee\011\uffee\014\uffee\024\uffee\036\uffee\060\uffee" +
+    "\064\uffee\001\002\000\004\057\104\001\002\000\024\002" +
+    "\uffed\004\uffed\007\uffed\011\uffed\014\uffed\024\uffed\036\uffed" +
+    "\060\uffed\064\uffed\001\002\000\014\002\uffe5\004\uffe5\007" +
+    "\uffe5\060\uffe5\062\uffe5\001\002\000\004\052\107\001\002" +
+    "\000\012\014\ufff8\024\ufff8\036\ufff8\064\ufff8\001\002\000" +
+    "\004\061\ufff9\001\002\000\004\002\001\001\002" });
+>>>>>>> Beta0.1
 
   /** Access to parse-action table. */
   public short[][] action_table() {return _action_table;}
@@ -214,6 +291,7 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
   /** <code>reduce_goto</code> table. */
   protected static final short[][] _reduce_table = 
     unpackFromStrings(new String[] {
+<<<<<<< HEAD
     "\000\237\000\050\002\003\003\015\004\022\005\024\006" +
     "\011\007\013\011\012\012\037\013\023\015\007\016\034" +
     "\020\025\021\035\022\005\025\016\026\032\032\026\041" +
@@ -295,6 +373,35 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
     "\041\031\044\004\001\001\000\002\001\001\000\002\001" +
     "\001\000\002\001\001\000\002\001\001\000\002\001\001" +
     "" });
+=======
+    "\000\107\000\016\002\005\003\003\004\012\005\006\006" +
+    "\011\017\004\001\001\000\002\001\001\000\002\001\001" +
+    "\000\002\001\001\000\002\001\001\000\002\001\001\000" +
+    "\002\001\001\000\006\007\017\011\020\001\001\000\016" +
+    "\002\015\003\003\004\012\005\006\006\011\017\004\001" +
+    "\001\000\002\001\001\000\002\001\001\000\002\001\001" +
+    "\000\002\001\001\000\004\010\104\001\001\000\006\012" +
+    "\021\015\022\001\001\000\004\013\031\001\001\000\002" +
+    "\001\001\000\002\001\001\000\002\001\001\000\002\001" +
+    "\001\000\002\001\001\000\002\001\001\000\002\001\001" +
+    "\000\006\014\034\020\035\001\001\000\002\001\001\000" +
+    "\002\001\001\000\002\001\001\000\002\001\001\000\002" +
+    "\001\001\000\002\001\001\000\002\001\001\000\004\003" +
+    "\042\001\001\000\004\021\043\001\001\000\002\001\001" +
+    "\000\004\003\045\001\001\000\002\001\001\000\002\001" +
+    "\001\000\004\020\071\001\001\000\004\013\067\001\001" +
+    "\000\004\013\052\001\001\000\004\010\056\001\001\000" +
+    "\002\001\001\000\002\001\001\000\002\001\001\000\002" +
+    "\001\001\000\002\001\001\000\004\010\061\001\001\000" +
+    "\002\001\001\000\004\010\063\001\001\000\002\001\001" +
+    "\000\004\010\065\001\001\000\002\001\001\000\002\001" +
+    "\001\000\004\020\070\001\001\000\002\001\001\000\002" +
+    "\001\001\000\002\001\001\000\002\001\001\000\002\001" +
+    "\001\000\002\001\001\000\002\001\001\000\002\001\001" +
+    "\000\002\001\001\000\002\001\001\000\002\001\001\000" +
+    "\002\001\001\000\002\001\001\000\002\001\001\000\002" +
+    "\001\001\000\002\001\001\000\002\001\001" });
+>>>>>>> Beta0.1
 
   /** Access to <code>reduce_goto</code> table. */
   public short[][] reduce_table() {return _reduce_table;}
@@ -332,9 +439,41 @@ public class Analizador_Cup extends java_cup.runtime.lr_parser {
   public int error_sym() {return 1;}
 
 
+<<<<<<< HEAD
 /** Cup generated class to encapsulate user supplied action code.*/
 @SuppressWarnings({"rawtypes", "unchecked", "unused"})
 class CUP$Analizador_Cup$actions {
+=======
+  /** User initialization code. */
+  public void user_init() throws java.lang.Exception
+    {
+ 
+    arbolSintactico = new Arbol();
+
+    }
+
+
+    
+public Arbol arbolSintactico;
+
+    @Override
+    public void syntax_error(Symbol sy) {
+        Token t=(Token)sy.value;
+        done_parsing();
+        report_error("Error sintáctico cerca de \""+ t.getCadena()+"\" ["+t.getRow()+" : "+t.getCol()+"]",null);
+        
+    }
+
+
+/** Cup generated class to encapsulate user supplied action code.*/
+@SuppressWarnings({"rawtypes", "unchecked", "unused"})
+class CUP$Analizador_Cup$actions {
+
+
+// se utiliza un arraylist para crear la tabla
+public ArrayList<String> tabla = new ArrayList();
+
+>>>>>>> Beta0.1
   private final Analizador_Cup parser;
 
   /** Constructor */
@@ -357,7 +496,11 @@ class CUP$Analizador_Cup$actions {
       switch (CUP$Analizador_Cup$act_num)
         {
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 0: // $START ::= PROGRAMA EOF 
+=======
+          case 0: // $START ::= inicio EOF 
+>>>>>>> Beta0.1
             {
               Object RESULT =null;
 		int start_valleft = ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)).left;
@@ -371,6 +514,7 @@ class CUP$Analizador_Cup$actions {
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 1: // PROGRAMA ::= LCODIGO PROGRAMA 
             {
               Object RESULT =null;
@@ -619,10 +763,23 @@ class CUP$Analizador_Cup$actions {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CODIGO",5, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 1: // inicio ::= linea_codigo inicio 
+            {
+              Object RESULT =null;
+		int lleft = ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)).left;
+		int lright = ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)).right;
+		Object l = (Object)((java_cup.runtime.Symbol) CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)).value;
+		
+            parser.arbolSintactico.agregarHijo((Nodo) l);
+            
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("inicio",0, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 29: // DECVARIABLE ::= TIPO VARIABLES 
             {
               Object RESULT =null;
@@ -718,276 +875,528 @@ class CUP$Analizador_Cup$actions {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION",13, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 2: // inicio ::= linea_codigo 
+            {
+              Object RESULT =null;
+		int lleft = ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()).left;
+		int lright = ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()).right;
+		Object l = (Object)((java_cup.runtime.Symbol) CUP$Analizador_Cup$stack.peek()).value;
+		
+                parser.arbolSintactico.agregarHijo((Nodo) l);
+            
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("inicio",0, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 40: // OPERACION1 ::= SUMA OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 3: // linea_codigo ::= Devolucion 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("linea_codigo",2, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 41: // OPERACION1 ::= RESTA OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 4: // linea_codigo ::= Comentarios 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("linea_codigo",2, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 42: // OPERACION1 ::= MULT OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 5: // linea_codigo ::= MClase 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("linea_codigo",2, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 43: // OPERACION1 ::= DIV OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 6: // Devolucion ::= DEVOLVER NUMERO 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Devolucion",1, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 44: // OPERACION1 ::= MODULO OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 7: // Comentarios ::= COMENT 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Comentarios",3, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 45: // OPERACION1 ::= POTENCIA OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 8: // Clase ::= CLASE ID 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Clase",4, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 46: // OPERACION1 ::= CONJ OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 9: // Propiedad ::= PROPIED ID DOSP 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Propiedad",5, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 47: // OPERACION1 ::= DISY OPERACION 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("OPERACION1",18, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 10: // Constructor ::= ENT ID Constructor 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 48: // CICLO ::= CDESDE 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CICLO",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 11: // Constructor ::= CADENA ID Constructor 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 49: // CICLO ::= CPARACADA 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CICLO",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 12: // Constructor ::= ESCRIBIR TAB Constructor 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 50: // CDESDE ::= DESDE PARINI VARDESDE MIENTRAS ID TIPOCOND NUMERO INCREMENTODEC NUMERO PARFIN ITERAR DOSP TAB CODIGO 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CDESDE",19, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-13)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 13: // Constructor ::= CADENA ID 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 51: // CDESDE ::= DESDE PARINI VARDESDE MIENTRAS ID TIPOCOND NUMERO PARFIN ITERAR DOSP TAB CODIGO 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CDESDE",19, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-11)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 14: // Constructor ::= ID ID 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 52: // VARDESDE ::= ID IGUAL NUMERO 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("VARDESDE",21, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 15: // Constructor ::= ESCRIBIR TAB 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Constructor",6, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 53: // INCREMENTODEC ::= INCREMENTAR 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("INCREMENTODEC",23, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 16: // Metodo ::= METD ID DOSP 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Metodo",8, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 54: // INCREMENTODEC ::= DECREMENTAR 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("INCREMENTODEC",23, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 17: // Funcion ::= ENT ID PARINI ENT ID PARFIN 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Funcion",9, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-5)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 55: // CODIGOS ::= TAB CODIGO CODIGOS 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CODIGOS",33, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 18: // Funcion ::= ENT ID PARINI PARFIN 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Funcion",9, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-3)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 56: // CONDICION ::= CONDICIONSI CODIGO TIPOCONDICION CODIGO 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CONDICION",15, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-3)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 19: // Funcion ::= CONST PARINI PARFIN 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Funcion",9, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 57: // TIPOCONDICION ::= SINOCOND 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOCONDICION",32, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 20: // Funcion ::= ID PARINI PARFIN 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Funcion",9, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 58: // TIPOCONDICION ::= SINON 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOCONDICION",32, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 21: // Condicion ::= SI ID CHAR NUMERO ENTONCES Devolucion CondicionB 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Condicion",10, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-6)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 59: // CONDICIONSI ::= SI PARINI ID TIPOCOND NUMERO PARFIN ENTONCES DOSP 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CONDICIONSI",24, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-7)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 22: // CondicionB ::= SINO Devolucion 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("CondicionB",15, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 60: // TIPOCOND ::= MENOR 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOCOND",22, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 23: // Operaciones ::= ID IGUAL TAB Funcion Constructor 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Operaciones",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-4)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 61: // TIPOCOND ::= MAYOR 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOCOND",22, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 24: // Operaciones ::= ID IGUAL ID Funcion Operaciones 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Operaciones",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-4)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 62: // TIPOCOND ::= DIGUAL 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOCOND",22, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 25: // Operaciones ::= ID IGUAL NUMERO Operaciones 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Operaciones",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-3)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 63: // SINOCOND ::= SINO PARINI ID TIPOCOND NUMERO PARFIN ENTONCES DOSP 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("SINOCOND",25, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-7)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 26: // Operaciones ::= ID IGUAL ID Funcion 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Operaciones",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-3)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 64: // SINON ::= SINO DOSP 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("SINON",26, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 27: // Operaciones ::= ID IGUAL NUMERO 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("Operaciones",14, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 65: // ESCRITURA ::= ESCRIBIR TIPOESCRITURA 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("ESCRITURA",12, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 28: // MPropied ::= Propiedad Constructor 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("MPropied",7, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 66: // TIPOESCRITURA ::= ID COMA TIPOESCRITURA 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOESCRITURA",27, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 29: // MMetodo ::= Metodo Funcion Condicion 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("MMetodo",11, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 67: // TIPOESCRITURA ::= TEXTO COMA TIPOESCRITURA 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOESCRITURA",27, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 30: // MMetodo ::= Metodo Funcion Operaciones 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("MMetodo",11, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 68: // TIPOESCRITURA ::= ID 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOESCRITURA",27, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 31: // MClase ::= Clase MPropied MMetodo 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("MClase",13, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-2)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 
           /*. . . . . . . . . . . . . . . . . . . .*/
+<<<<<<< HEAD
           case 69: // TIPOESCRITURA ::= TEXTO 
             {
               Object RESULT =null;
 
               CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("TIPOESCRITURA",27, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+=======
+          case 32: // MClase ::= Clase MPropied 
+            {
+              Object RESULT =null;
+
+              CUP$Analizador_Cup$result = parser.getSymbolFactory().newSymbol("MClase",13, ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.elementAt(CUP$Analizador_Cup$top-1)), ((java_cup.runtime.Symbol)CUP$Analizador_Cup$stack.peek()), RESULT);
+>>>>>>> Beta0.1
             }
           return CUP$Analizador_Cup$result;
 

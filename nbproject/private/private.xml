@@ -6,7 +6,11 @@
             <file>file:/C:/Users/Guillermo/Desktop/PoryectoCompis/ProyectoCompiladores/src/Analizador_Lexico/datos.txt</file>
             <file>file:/C:/Users/Guillermo/Desktop/PoryectoCompis/ProyectoCompiladores/src/Analizador_Lexico/sintactico.jcup</file>
             <file>file:/C:/Users/Guillermo/Desktop/PoryectoCompis/ProyectoCompiladores/src/Analizador_Lexico/analizador.jflex</file>
+<<<<<<< HEAD
             <file>file:/C:/Users/Guillermo/Desktop/PoryectoCompis/ProyectoCompiladores/src/Analizador_Lexico/Analizador_Lex.java</file>
+=======
+            <file>file:/C:/Users/Guillermo/Desktop/PoryectoCompis/ProyectoCompiladores/src/Analizador_Lexico/Principal.java</file>
+>>>>>>> Beta0.1
         </group>
     </open-files>
 </project-private>
